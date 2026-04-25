@@ -78,6 +78,7 @@ async function carregarAnimal() {
             <InfoItem label="Nome" value={animalBuscado.commonName} />
             <InfoItem label="Científico" value={animalBuscado.binomialName} />
             <InfoItem label="Local" value={animalBuscado.location} />
+            <InfoItem label="Imagem" value={<img src={animalBuscado.imageSrc } style={{maxWidth: '100px'}} />} />
             </View>
           )}
           </View>
