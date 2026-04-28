@@ -4,6 +4,7 @@ SOBRE A API
 A API selecionada fornece dados sobre animais extintos no período do Holoceno (aproximadamente nos últimos 11.650 anos). A base de dados contém 804 registros coletados via scraping da Wikipedia.
 
 A API possui dois comportamentos principais via método GET:
+
 1º Retorno Aleatório: Quando acessada sem parâmetros, retorna um animal ao acaso.
 2º Retorno por Quantidade: Ao enviar um número específico no endpoint, a API retorna uma lista com essa quantidade de animais aleatórios.
 
